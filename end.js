@@ -23,5 +23,5 @@ saveHighScore = event =>{
     highScore.push(score);
 
     localStorage.setItem("highScores", JSON.stringify(highScore));
-    window.location.assign("quiz.html");
+    window.location.assign("index.html");
 }
